@@ -1,26 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Login Page 
+      Home Page 
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <button ion-button color="dark" outline>Login Here!</button>
-
-
-<ion-list>
-  <ion-item>
-    <ion-label fixed>Email</ion-label>
-    <ion-input type="text" value=""></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label fixed>Password</ion-label>
-    <ion-input type="password"></ion-input>
-  </ion-item>
-</ion-list>
+<ion-content padding style="background-color:thistle" >
+  <p align="center">
+  <button class="homebuttons" style="border: solid" (click)="navigateToLogin()"><b>Login Here!</b></button>
+  <button class="homebuttons" style="border: solid" (click)="navigateToRegister()"><b>Register Here!</b></button>
+  </p>
 </ion-content>
 
     
