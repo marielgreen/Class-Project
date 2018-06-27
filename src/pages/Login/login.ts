@@ -8,6 +8,9 @@ import { profilepage } from '../profile/profile';
 })
 export class LoginPage {
 
+
+
+  
   constructor(public navCtrl: NavController) {}
   navigateToProfile(){
     console.log("Navigating...");
