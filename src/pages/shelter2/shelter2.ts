@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PaymentPage } from '../payment/payment';
 
 /**
  * Generated class for the Shelter2Page page.
@@ -15,7 +16,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Shelter2Page {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  navigateToPayment(){
+    console.log("Navigating...")
+    this.navCtrl.push(PaymentPage)
   }
 
   ionViewDidLoad() {

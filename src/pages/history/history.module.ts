@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { Shelter5Page } from './shelter5';
+import { HistoryPage } from './history';
 
 @NgModule({
   declarations: [
-    Shelter5Page,
+    HistoryPage,
   ],
   imports: [
-    IonicPageModule.forChild(Shelter5Page),
+    IonicPageModule.forChild(HistoryPage),
   ],
 })
-export class Shelter5PageModule {}
+export class HistoryPageModule {}
